@@ -9,7 +9,7 @@ public class Main {
 		cloudinary.config.secure = true;
 		System.out.println(cloudinary.config.cloudName);
 
-		// Upload.runner(cloudinary);
+		 Upload.runner(cloudinary);
 
 		// CloudinaryUtils.runner(cloudinary);
 

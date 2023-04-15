@@ -11,8 +11,7 @@ public class Upload {
 			// Use an empty map for no options
 
 			// upload an image with no options
-			// CourseUtils.jsonPrint(cloudinary.uploader().upload("./assets/cheesecake.jpg",
-			// ObjectUtils.emptyMap()));
+			 CourseUtils.jsonPrint(cloudinary.uploader().upload("./assets/cheesecake.jpg", ObjectUtils.emptyMap()));
 
 			// upload a video
 			// CourseUtils.jsonPrint(cloudinary.uploader().upload("./assets/earth.mp4", 
